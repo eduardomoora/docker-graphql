@@ -31,7 +31,7 @@ jobs:
       run: |
         docker build -t eddiemoora/docker-graphql:0.0.2 .
 
-    - name :  Push image
+    - name:  Push image
       run: | 
         docker push eddiemoora/docker-graphql:0.0.2 .
         

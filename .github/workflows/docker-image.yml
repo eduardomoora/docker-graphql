@@ -33,7 +33,7 @@ jobs:
 
     - name:  Push image
       run: | 
-        docker push eddiemoora/docker-graphql:0.0.2 .
+        docker push eddiemoora/docker-graphql:0.0.2
         
       
     
